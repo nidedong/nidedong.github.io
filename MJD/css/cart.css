@@ -1,0 +1,180 @@
+body {
+  background-color: #eee;
+}
+.cart-layout {
+  position: relative;
+  min-width: 320px;
+  max-width: 640px;
+  height: 1400px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.cart-header {
+  position: static;
+}
+.cart-header h3 {
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 400;
+}
+.cart-safe {
+  width: 100%;
+  height: 33px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+.cart-safe p {
+  line-height: 33px;
+  display: inline-block;
+  padding-left: 20px;
+  position: relative;
+}
+.cart-safe p::before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: 0;
+  top: 7px;
+  background-color: red;
+  background: url(../images/safe_icon.png) no-repeat 0 0;
+  background-size: 18px 18px;
+}
+.cart-content {
+  padding-top: 10px;
+}
+.cart-content .title {
+  height: 34px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  color: #969696;
+  font-size: 12px;
+  padding-left: 30px;
+  position: relative;
+}
+.cart-content .title span:nth-child(2) {
+  margin: 8px 5px 0 5px;
+  width: 21px;
+  height: 16px;
+  background-position: 0 0;
+}
+.cart-content .title span:nth-child(3),
+.cart-content .title span:nth-child(4) {
+  height: 32px;
+  line-height: 32px;
+}
+.cart-content .title .check-all {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 6px;
+  top: 6px;
+  background-position: -180px -90px;
+  cursor: pointer;
+}
+.item {
+  height: 100px;
+  padding-left: 30px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.item .check-one {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 6px;
+  top: 40px;
+  background-position: -180px -90px;
+  cursor: pointer;
+}
+.item img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.item .right {
+  padding: 10px;
+  overflow: hidden;
+  height: 100%;
+}
+.item .right p {
+  overflow: hidden;
+  height: 36px;
+  line-height: 18px;
+}
+.item .right .number {
+  color: #969696;
+  margin-top: 10px;
+}
+.item .right .number span {
+  width: 30px;
+  height: 30px;
+  float: left;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #969696;
+  cursor: pointer;
+}
+.item .right .number span:nth-child(2) {
+  border-left: none;
+  border-right: none;
+}
+.item .right .del {
+  width: 18px;
+  height: 22px;
+}
+.item .right .del .top {
+  width: 18px;
+  height: 4px;
+  background: url(../images/delete_up.png);
+  background-size: 18px 4px;
+}
+.item .right .del .bottom {
+  width: 18px;
+  height: 18px;
+  background: url(../images/delete_down.png);
+  background-size: 18px 18px;
+}
+.item .right .del.up .top {
+  transition: transform 0.3s;
+  transform: rotate(15deg);
+}
+.win-hide {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  position: absolute;
+}
+.win-hide .box {
+  width: 70%;
+  background-color: #fff;
+  margin: 300px auto;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.win-hide .box p {
+  height: 60px;
+  line-height: 60px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border-bottom: 1px solid #969696;
+}
+.win-hide .box .cancel,
+.win-hide .box .ok {
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  line-height: 30px;
+  cursor: pointer;
+  border: 1px solid #969696;
+}
+.win-hide .box .ok {
+  background-color: #f23030;
+  color: #fff;
+}

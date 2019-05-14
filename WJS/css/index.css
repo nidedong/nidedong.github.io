@@ -1,0 +1,356 @@
+a,
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+li {
+  list-style: none;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('../fonts/MiFie-Web-Font.eot');
+  src: url('../fonts/MiFie-Web-Font.eot?#iefix') format('embedded-opentype'), url('../fonts/MiFie-Web-Font.woff') format('woff'), url('../fonts/MiFie-Web-Font.ttf') format('truetype'), url('../fonts/MiFie-Web-Font.svg#iconfont') format('svg');
+}
+[class^=icon-] {
+  font-family: "iconfont";
+}
+.icon-phone::before {
+  content: "\e908";
+}
+.icon-tel::before {
+  content: "\e909";
+}
+.icon-wjs-logo::before {
+  content: "\e920";
+}
+.icon-wjs-text::before {
+  content: "\e93e";
+}
+.icon-wjs-e904::before {
+  content: "\e904";
+}
+.icon-wjs-e905::before {
+  content: "\e905";
+}
+.icon-wjs-e906::before {
+  content: "\e906";
+}
+.icon-wjs-e90e::before {
+  content: "\e90e";
+}
+.icon-wjs-e910::before {
+  content: "\e910";
+}
+.icon-wjs-e911::before {
+  content: "\e911";
+}
+.icon-wjs-e90f::before {
+  content: "\e90f";
+}
+.icon-wjs-e946::before {
+  content: "\e946";
+}
+.icon-wjs-e92f::before {
+  content: "\e92f";
+}
+.icon-wjs-e92e::before {
+  content: "\e92e";
+}
+.icon-wjs-e92a::before {
+  content: "\e92a";
+}
+.icon-wjs-e929::before {
+  content: "\e929";
+}
+.icon-wjs-e931::before {
+  content: "\e931";
+}
+.icon-wjs-e92c::before {
+  content: "\e92c";
+}
+.icon-wjs-e92b::before {
+  content: "\e92b";
+}
+.icon-wjs-e92d::before {
+  content: "\e92d";
+}
+.wjs-header {
+  height: 40px;
+  border-bottom: 1px solid #ccc;
+}
+.wjs-header .row [class^=col-md] {
+  line-height: 40px;
+  text-align: center;
+  border-right: 1px solid #ccc;
+}
+.wjs-header .row [class^=col-md]:last-child {
+  border-right: none;
+}
+.wjs-header .row .btn-register {
+  font-size: 14px;
+}
+.wjs-nav .wjs-default {
+  margin-bottom: 0;
+  min-height: 80px;
+  border-color: #e7e7e7;
+}
+.wjs-nav .wjs-default .navbar-brand {
+  height: 80px;
+  line-height: 50px;
+}
+.wjs-nav .wjs-default .navbar-brand .icon-wjs-logo {
+  font-size: 50px;
+  color: red;
+  vertical-align: middle;
+}
+.wjs-nav .wjs-default .navbar-brand .icon-wjs-text {
+  font-size: 30px;
+  color: black;
+  vertical-align: middle;
+}
+.wjs-nav .wjs-default .navbar-text {
+  color: #777;
+}
+.wjs-nav .wjs-default .navbar-nav > li > a {
+  color: #777;
+  height: 80px;
+  line-height: 50px;
+}
+.wjs-nav .wjs-default .navbar-nav > li > a:hover,
+.wjs-nav .wjs-default .navbar-nav > li > a:focus {
+  border-bottom: 3px solid red;
+  background-color: #fff;
+}
+.wjs-nav .wjs-default .navbar-nav > .active > a,
+.wjs-nav .wjs-default .navbar-nav > .active > a:hover,
+.wjs-nav .wjs-default .navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: #fff;
+}
+.wjs-nav .wjs-default .navbar-nav > .disabled > a,
+.wjs-nav .wjs-default .navbar-nav > .disabled > a:hover,
+.wjs-nav .wjs-default .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+.wjs-nav .wjs-default .navbar-toggle {
+  border-color: #ddd;
+  margin-top: 24px;
+}
+.wjs-nav .wjs-default .navbar-toggle:hover,
+.wjs-nav .wjs-default .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.wjs-nav .wjs-default .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.wjs-banner .img-big {
+  border: 1px solid red;
+  height: 410px;
+  background-position: center center;
+}
+.wjs-banner .img-small {
+  width: 100%;
+  display: blcok;
+}
+.wjs-info {
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+.wjs-info .row .media {
+  padding-bottom: 20px;
+}
+.wjs-info .row .media .icon-wjs-e904 {
+  font-size: 30px;
+}
+.wjs-book {
+  padding: 40px 0;
+}
+.wjs-book .pull-left .icon-wjs-e906 {
+  font-size: 25px;
+}
+.wjs-book .pull-left a {
+  color: red;
+  border-bottom: 1px dashed red;
+}
+.wjs-book .pull-right a:hover {
+  color: red;
+}
+.wjs-book .pull-right a .icon-wjs-e905 {
+  font-size: 25px;
+}
+.wjs-product {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background-color: #eee;
+  padding: 40px 0;
+}
+.wjs-product .box {
+  overflow: auto;
+}
+.wjs-product .box .nav-product {
+  border-bottom: 1px solid #ddd;
+}
+.wjs-product .box .nav-product > li {
+  float: left;
+}
+.wjs-product .box .nav-product > li > a {
+  margin-right: 2px;
+  height: 60px;
+  line-height: 40px;
+  box-sizing: border-box;
+}
+.wjs-product .box .nav-product > li > a:hover {
+  color: red;
+  border-bottom: 3px solid red;
+}
+.wjs-product .box .nav-product > li.active > a,
+.wjs-product .box .nav-product > li.active > a:hover,
+.wjs-product .box .nav-product > li.active > a:focus {
+  color: red;
+  border-bottom: 3px solid red;
+}
+.wjs-product .tab-content {
+  padding-top: 20px;
+}
+.wjs-product .tab-content #product1 .current .in {
+  background-color: red;
+  color: #fff;
+}
+.wjs-product .tab-content #product1 .current .in .left::before {
+  color: #fff;
+}
+.wjs-product .tab-content #product1 .in {
+  background-color: #fff;
+  height: 150px;
+  margin-bottom: 20px;
+}
+.wjs-product .tab-content #product1 .in .right {
+  padding-top: 30px;
+  height: 100%;
+  width: 80px;
+  float: right;
+  text-align: center;
+  border-left: 1px dashed black;
+  position: relative;
+}
+.wjs-product .tab-content #product1 .in .right::before,
+.wjs-product .tab-content #product1 .in .right::after {
+  content: "";
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #eee;
+  position: absolute;
+  top: -7px;
+  left: -7px;
+}
+.wjs-product .tab-content #product1 .in .right::after {
+  top: auto;
+  bottom: -7px;
+}
+.wjs-product .tab-content #product1 .in .right p {
+  font-size: 16px;
+}
+.wjs-product .tab-content #product1 .in .right p span {
+  font-size: 35px;
+  font-weight: 700;
+}
+.wjs-product .tab-content #product1 .in .left {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.wjs-product .tab-content #product1 .in .left::before {
+  content: "\e915";
+  font-family: "iconfont";
+  position: absolute;
+  font-size: 40px;
+  left: 0;
+  top: -8px;
+  color: red;
+}
+.wjs-product .tab-content #product1 .in .left p {
+  font-size: 12px;
+}
+.wjs-news {
+  padding: 30px 0;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.wjs-news .line-through {
+  height: 100%;
+  width: 1px;
+  border-left: 1px dashed red;
+  position: absolute;
+  left: 45px;
+  top: 0;
+}
+.wjs-news h4 {
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.wjs-news h4::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: absolute;
+  border: 1px solid #ccc;
+  right: -6px;
+  bottom: -3px;
+}
+.wjs-news .nav-news {
+  text-align: center;
+}
+.wjs-news .nav-news > li {
+  margin-bottom: 60px;
+  float: left;
+}
+.wjs-news .nav-news > li:last-child {
+  margin-bottom: 0;
+}
+.wjs-news .nav-news > li > a {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  font-size: 30px;
+  color: #fff;
+  background-color: #ccc;
+}
+.wjs-news .nav-news > li > a:hover {
+  background-color: red;
+}
+.wjs-news .nav-news > li.active > a,
+.wjs-news .nav-news > li.active > a:hover,
+.wjs-news .nav-news > li.active > a:focus {
+  background-color: red;
+}
+.wjs-news .new-content li {
+  padding: 10px 0;
+}
+.wjs-news .new-content li a {
+  color: #333;
+}
+@media screen and (max-width: 991px) {
+  .wjs-news .nav-news li {
+    width: 25%;
+    margin-bottom: 0;
+  }
+  .wjs-news .nav-news li a {
+    margin: 0 60px;
+  }
+}
+.wjs-footer {
+  text-align: center;
+  padding: 30px 0;
+}
+.wjs-footer h1 {
+  font-size: 50px;
+}
+.wjs-footer a {
+  font-size: 50px;
+  margin: 0 20px;
+}

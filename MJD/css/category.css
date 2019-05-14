@@ -1,0 +1,62 @@
+html,
+body {
+  height: 100%;
+}
+.cate-layout {
+  position: relative;
+  padding-top: 44px;
+  width: 100%;
+  max-width: 640px;
+  min-width: 320px;
+  height: 100%;
+  margin: 0 auto;
+}
+.cate-layout .cate-header input {
+  width: 100%;
+  border-radius: 5px;
+  height: 30px;
+  padding-left: 10px;
+  font-size: 12px;
+}
+.cate-layout .cate-content {
+  height: 100%;
+}
+.cate-layout .cate-content .left {
+  overflow: hidden;
+  width: 90px;
+  height: 100%;
+  float: left;
+}
+.cate-layout .cate-content .left ul li {
+  border-right: 1px solid #f23030;
+  border-bottom: 1px solid #f23030;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+}
+.cate-layout .cate-content .left ul .current {
+  border-right: none;
+  color: #f23030;
+}
+.cate-layout .cate-content .right {
+  height: 100%;
+  overflow: hidden;
+  padding: 5px;
+}
+.cate-layout .cate-content .right .inner .showImg img {
+  width: 100%;
+}
+.cate-layout .cate-content .right .inner h3 {
+  margin: 15px 0;
+}
+.cate-layout .cate-content .right .inner ul {
+  text-align: center;
+  font-size: 12px;
+}
+.cate-layout .cate-content .right .inner ul li {
+  width: 33.33%;
+  float: left;
+}
+.cate-layout .cate-content .right .inner ul li img {
+  width: 70%;
+}

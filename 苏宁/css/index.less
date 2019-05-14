@@ -1,0 +1,96 @@
+
+
+.layout {
+  padding-top: .8rem;
+  min-width: 320px;
+  max-width: 750px;
+  margin: 0 auto;
+  height: 1000px;
+  position: relative;
+}
+
+//头部 
+.sn-header {
+  width: 100%;
+  z-index: 999;
+  max-width: 750px;
+  position: fixed;
+  top: 0;
+  height: .8rem;
+  background-color: skyblue;
+  .cate {
+    width: .8rem;
+    height: 100%;
+    background: url(../images/icon_category.png) no-repeat center center;
+    background-size: .4rem .7rem;
+  }
+  .cart {
+    width: .8rem;
+    height: 100%;
+    background: url(../images/icon_cart.png) no-repeat center center;
+    background-size: .63rem .68rem;
+  }
+  .search {
+    overflow: hidden;
+    padding: .15rem 0;
+    input {
+      width: 100%;
+      height: .5rem;
+      border-radius: .08rem;
+      padding-left: .1rem;
+      font-size: .2rem;
+    }
+    
+  }
+}
+
+.sn-banner {
+  img {
+    width: 100%;
+    // display: block;
+  }
+}
+
+.sn-nav {
+  padding: .2rem 0;
+  width: 100%;
+  ul {
+    li {
+      padding-bottom: .1rem;
+      float: left;
+      width: 20%;
+      text-align: center;
+      a {
+        display: block;
+        img {
+          width: .8rem;
+        }
+        p {
+          font-size: .2rem;
+        }
+      }
+
+    }
+
+  }
+}
+
+.sn-footer {
+  height: .8rem;
+  background-color: #ccc;
+  padding: .15rem 0;
+  position: fixed;
+  bottom: 0;
+  max-width: 750px;
+  width :100%;
+  li {
+    float: left;
+    width: 20%;
+    text-align: center;
+    a {
+      img {
+        width: .5rem;
+      }
+    }
+  }
+}
